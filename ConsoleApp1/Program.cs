@@ -79,10 +79,10 @@ namespace ConsoleApp1
 
             long percent = 100 - (best_size / (size / 100));
 
-            Console.WriteLine("\n\n" + "O melhor range foi " + best_range);
-            Console.WriteLine(changes + " cores foram trocadas");
-            Console.WriteLine("A imagem diminuiu em " + percent + "%");
-            Console.WriteLine("Demorou " + time + " para executar");
+            Console.WriteLine("O melhor range foi " + best_range+";");
+            Console.WriteLine(changes + " cores foram trocadas" + ";");
+            Console.WriteLine("A imagem diminuiu em " + percent + "%" + ";");
+            Console.WriteLine("Demorou " + time + " para executar" + ".");
 
             Console.ReadLine();
         }
